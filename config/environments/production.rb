@@ -93,7 +93,7 @@ Pinteresting::Application.configure do
 
   :s3_protocol => 'https',
   :s3_host_name => 's3-eu-west-2.amazonaws.com',
-  :path => ":filename"
+  :path => ":filename",
 
   }
 end
