@@ -91,9 +91,9 @@ Pinteresting::Application.configure do
     }
   # Aggiunta parametri per risolvere problema caricamento immagini
 
-  :s3_protocol => 'https',
-  :s3_host_name => 's3-eu-west-2.amazonaws.com',
-  :path => ":filename",
-
+  #:s3_protocol => 'https',
+  #:s3_host_name => 's3-eu-west-2.amazonaws.com',
+  #:path => ":filename"
   }
+
 end
