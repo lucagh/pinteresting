@@ -89,5 +89,11 @@ Pinteresting::Application.configure do
     :access_key_id => ENV['AWS_ACCESS_KEY_ID'],
     :secret_access_key => ENV['AWS_SECRET_ACCESS_KEY']
     }
+  # Aggiunta parametri per risolvere problema caricamento immagini
+
+  :s3_protocol => 'https',
+  :s3_host_name => 's3-eu-west-2.amazonaws.com',
+  :path => ":filename"
+
   }
 end
